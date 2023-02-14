@@ -1,9 +1,444 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "title": "Banana",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/nVWwWv6w/Group-36216.png",
+      "category": "Lunch",
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "2",
+      "title": "Tomato",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/fbcfTM8x/tomato.png",
+      "category": "Lunch",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "3",
+      "title": "Potato",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/yxmg4TsB/potato.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "4",
+      "title": "Cauliflower",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/DZdn7pJC/cabbage-buds.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "5",
+      "title": "Banana",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/7h3Vs7RJ/banana.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "6",
+      "title": "Tomato",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/fbcfTM8x/tomato.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "7",
+      "title": "Egg Plant",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/nVWwWv6w/Group-36216.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "8",
+      "title": "Egg Plant",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/nVWwWv6w/Group-36216.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "9",
+      "title": "Egg Plant",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/nVWwWv6w/Group-36216.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    },
+    {
+      "id": "10",
+      "title": "Egg Plant",
+      "info": "55 cal/100g",
+      "image": "https://i.postimg.cc/nVWwWv6w/Group-36216.png",
+      "category": "Breakfast",
+      "ingrediants": [
+        {
+          "name": "Bread",
+          "value": "20g"
+        },
+        {
+          "name": "Meat (Chicken)",
+          "value": "40g"
+        },
+        {
+          "name": "Cacumber",
+          "value": "30g"
+        },
+        {
+          "name": "Onion",
+          "value": "20g"
+        }
+      ],
+      "nutrition": [
+        {
+          "name": "Protein",
+          "value": "450g"
+        },
+        {
+          "name": "Calories",
+          "value": "220g"
+        },
+        {
+          "name": "Fat",
+          "value": "100g"
+        },
+        {
+          "name": "Carbs",
+          "value": "49g"
+        }
+      ],
+      "description": "A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread"
+    }
+  ]
 }
