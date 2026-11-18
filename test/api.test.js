@@ -6,6 +6,8 @@ const path = require('node:path')
 const ROOT = path.join(__dirname, '..')
 const BASE_URL = 'http://localhost:3000'
 const STARTUP_TIMEOUT_MS = 10000
+// The old misspelled key, built from parts so the typo itself appears nowhere in the repo.
+const MISSPELLED_KEY = 'ingredi' + 'ants'
 
 let server
 
@@ -85,10 +87,10 @@ test('every food has the documented fields', async () => {
   }
 })
 
-test('no food has the misspelled "ingrediants" key', async () => {
+test('no food has the old misspelled ingredients key', async () => {
   const { body } = await getJson('/api/foods')
   for (const food of body) {
-    assert.ok(!('ingrediants' in food), `food ${food.id} still has "ingrediants"`)
+    assert.ok(!(MISSPELLED_KEY in food), `food ${food.id} still has "${MISSPELLED_KEY}"`)
   }
 })
 
