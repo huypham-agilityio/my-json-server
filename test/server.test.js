@@ -66,7 +66,7 @@ test('listens on PORT when it is set', async (t) => {
 
     const res = await fetch('http://127.0.0.1:4123/foods')
     assert.strictEqual(res.status, 200)
-    assert.strictEqual(port, 4124)
+    assert.strictEqual(port, 4123)
 })
 
 test('falls back to 3000 when PORT is not set', async (t) => {
