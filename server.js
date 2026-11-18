@@ -10,10 +10,15 @@ server.use(jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id'
 }))
-server.use(router)
-server.listen(3000, () => {
-    console.log('JSON Server is running')
+server.get('/health', (req, res) => {
+    res.status(200).json({ status: 'ok' })
 })
+server.use(router)
+if (require.main === module) {
+    server.listen(3000, () => {
+        console.log('JSON Server is running')
+    })
+}
 
 // Export the Server API
 module.exports = server
