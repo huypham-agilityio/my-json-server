@@ -18,7 +18,7 @@ Once deployed, the API is available at:
 
 ## Breaking changes
 
-- The field `ingredi<b>a</b>nts` (misspelled) on `foods` records was renamed to `ingredients`.
+- The misspelled field ingredi**a**nts on `foods` records was renamed to `ingredients`.
   There is no alias for the old name: frontend code must read `ingredients`.
 
 ## API
